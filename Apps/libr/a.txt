@@ -1,0 +1,3 @@
+a.txt
+go.mod
+main.go

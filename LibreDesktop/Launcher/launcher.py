@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
+import os
 from PyQt6 import QtWidgets, QtCore
 from PyQt6.QtGui import QCursor, QIcon
 import sys
 import math
 
 apps = [
-    ("Firefox", "firefox", "/home/cr/LibreDesktop/Launcher/icons/firefox.png"),
-    ("Thunar", "thunar", "/home/cr/LibreDesktop/Launcher/icons/thunar.png"),
-    ("Terminal", "alacritty", "/home/cr/LibreDesktop/Launcher/icons/terminal.png"),
-    ("Rofi", "/home/cr/.local/bin/menu", "/home/cr/LibreDesktop/Launcher/icons/rofi.png"),
-    ("X", "", "/home/cr/LibreDesktop/Launcher/icons/x.png"),
+    ("Firefox", "librewolf", "/mnt/files/Gitzinho/LibreDesktop/Project/LibreDesktop/Launcher/icons/firefox.png"),
+    ("Thunar", "pcmanfm", "/mnt/files/Gitzinho/LibreDesktop/Project/LibreDesktop/Launcher/icons/thunar.png"),
+    ("Terminal", "alacritty", "/mnt/files/Gitzinho/LibreDesktop/Project/LibreDesktop/Launcher/icons/terminal.png"),
+    ("Rofi", "/mnt/files/Gitzinho/LibreDesktop/Project/LibreDesktop/Launcher/run_rofi.sh", "/mnt/files/Gitzinho/LibreDesktop/Project/LibreDesktop/Launcher/icons/rofi.png"),
+    ("X", "", "/mnt/files/Gitzinho/LibreDesktop/Project/LibreDesktop/Launcher/icons/x.png"),
 ]
 
 
